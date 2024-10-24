@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'manageTasks',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +78,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'TodoDatabase',
+        'NAME': 'todoDatabase',
         'USER': 'root',
         'PASSWORD': 'rootpassword',
         'HOST': 'localhost',
