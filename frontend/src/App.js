@@ -2,6 +2,7 @@
 import './App.css';
 import React from 'react';
 import Image from 'react-bootstrap/Image'; 
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <Image src= "todoLogo.png" alt="To-Do Image" fluid />
         Welcome to your To-Do App!
       </header>
+
+      <TaskList />
     </div>
   );
 }
